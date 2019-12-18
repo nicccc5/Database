@@ -111,7 +111,7 @@
             android:id="@+id/put_data"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#696969"
+            android:background="#f0f8ff"
             android:gravity="center">
 
             <Button
