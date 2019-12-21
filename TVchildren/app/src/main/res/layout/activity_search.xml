@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/activity_main"
+            android:id="@+id/tool_btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+<!--        <LinearLayout-->
+<!--            android:id="@+id/btntool"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn-main"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Button" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn-movie"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Button" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn-tv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Button" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn-recommend"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Button" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn-like"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Button" />-->
+<!--        </LinearLayout>-->
+
+
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/recyclev"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--             />-->
+        <include layout="@layout/recycleview"
+            android:id="@+id/rv"
+            android:layout_height="400dp"
+            android:layout_width="match_parent"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
