@@ -22,8 +22,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button"
-                android:onClick="startNextActivity"/>
+                android:onClick="startNextActivity"
+                android:text="HomePage" />
 
 <!--            <Button-->
 <!--                android:id="@+id/btn_search"-->
@@ -34,22 +34,21 @@
 <!--                android:onClick="startNextActivity"/>-->
 
 
-
             <Button
                 android:id="@+id/btn_recommend"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button"
-                android:onClick="startNextActivity"/>
+                android:onClick="startNextActivity"
+                android:text="Recommend" />
 
             <Button
                 android:id="@+id/btn_like"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button"
-                android:onClick="startNextActivity"/>
+                android:onClick="startNextActivity"
+                android:text="User" />
 
         </LinearLayout>
 
